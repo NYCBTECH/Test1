@@ -9,7 +9,7 @@ from sklearn.metrics import roc_auc_score
 import shap
 
 # 1. Import data
-df = pd.read_csv('your_data.csv')  # Replace with your file path
+df = pd.read_csv('https://raw.githubusercontent.com/prasertcbs/basic-dataset/refs/heads/master/Loan-Approval-Prediction.csv')  # Replace with your file path
 
 # 2. Identify target variable (assuming it's called 'target')
 target = 'target'  # Replace with your actual target column name
